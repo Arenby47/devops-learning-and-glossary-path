@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<div class="header">
+<img src="https://cdn-icons-png.flaticon.com/512/919/919853.png" class="devops-icon">
+<h1>DevOps Learning Path & Glossary</h1>
+</div>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🚀 DevOps Learning Path & Glossary</h1>
+
+<h2>DevOps Pipeline</h2>
+
+<div class="pipeline">
+
+<div class="stage">Code</div>
+<div class="arrow">→</div>
+
+<div class="stage">Build</div>
+<div class="arrow">→</div>
+
+<div class="stage">Test</div>
+<div class="arrow">→</div>
+
+<div class="stage">Deploy</div>
+
+</div>
+
+<input type="text" id="searchBar" placeholder="Search DevOps term...">
+
+<div id="glossaryContainer"></div>
+
+<h2>📚 DevOps Learning Roadmap</h2>
+
+<h2>DevOps Progress Tracker</h2>
+
+<div class="progress">
+
+<label><input type="checkbox"> Linux Basics</label>
+<label><input type="checkbox"> Git</label>
+<label><input type="checkbox"> Docker</label>
+<label><input type="checkbox"> CI/CD</label>
+<label><input type="checkbox"> Kubernetes</label>
+<label><input type="checkbox"> Terraform</label>
+<label><input type="checkbox"> Monitoring</label>
+
+</div>
+
+<div class="roadmap">
+
+<div class="stage">
+<h3>Stage 1 – Fundamentals</h3>
+<ul>
+<li>Linux Basics</li>
+<li>Networking Basics</li>
+<li>Git & GitHub</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 2 – Containers</h3>
+<ul>
+<li>Docker</li>
+<li>Containerization</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 3 – CI/CD</h3>
+<ul>
+<li>Jenkins</li>
+<li>GitHub Actions</li>
+<li>Pipeline Concepts</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 4 – Infrastructure</h3>
+<ul>
+<li>Terraform</li>
+<li>Infrastructure as Code</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 5 – Orchestration</h3>
+<ul>
+<li>Kubernetes</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 6 – Monitoring</h3>
+<ul>
+<li>Prometheus</li>
+<li>Grafana</li>
+</ul>
+</div>
+
+</div>
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<h2>🤖 DevOps AI Assistant</h2>
+
+<div class="chat-container">
+
+<div id="chatbox"></div>
+
+<input type="text" id="userInput" placeholder="Ask about DevOps...">
+
+<button onclick="askAI()">Ask</button>
+
+</div>
+
+<h2>🧠 DevOps Knowledge Quiz</h2>
+
+<div class="quiz-container">
+
+<div id="question"></div>
+
+<div id="options"></div>
+
+<button onclick="nextQuestion()">Next</button>
+
+<h3 id="score"></h3>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
